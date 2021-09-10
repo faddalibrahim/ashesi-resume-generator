@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Google+Sans:200,300,400,500,600,700,900");
+
+.app {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.appHeader {
+  font-size: 1rem;
+  color: #555;
+  font-family: "Google Sans";
+}
+
+.intro {
+  transition: letter-spacing 0.3s linear;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.clickMe {
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  border-radius: 0.1rem;
+}
+
+.clickMe:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
